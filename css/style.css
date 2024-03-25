@@ -8,12 +8,8 @@ header{
 }
 
 .container-full{
-    position: fixed;
-    z-index: 2;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0px 0.2px 0.2px #ff6900;
-    border: 0.1px solid rgb(0, 0, 0);
 }
 
 .container-80{
@@ -23,6 +19,7 @@ header{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 20px;
 }
@@ -34,9 +31,7 @@ header{
 
 .col-33{
     margin: 10px;
-    width: calc(100% / 3 -20px);
-    height: 100px;
-    border: 1px solid black;
+    width: calc(100% / 3 - 20px);
 }
 
 .col-60{
@@ -67,6 +62,34 @@ header{
     width: 15%;
 }
 
+.product-image{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 15px;
+}
+
+.product-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.product-info{
+    width: 100%;
+    height: 10%;
+}
+
+/*classi utility*/
+
+.bg-orange{
+    background-color: #ff6900;
+}
+
+.box-border{
+    box-shadow: 0px 0.2px 0.2px #ff6900;
+    border: 0.1px solid rgb(0, 0, 0);
+}
+
 .align-l{
     justify-content: left;
     align-items: center;
@@ -82,10 +105,9 @@ header{
     align-items: center;
 }
 
-/*classi utility*/
-
-.bg-orange{
-    background-color: #ff6900;
+.fixed{
+    position: fixed;
+    z-index: 2;
 }
 
 *{
