@@ -150,6 +150,13 @@ footer{
     text-decoration: none;
 }
 
+.social-container > img{
+    padding-top: 5px;
+    width: 8%;
+    margin-right: 1px;
+    filter:invert(1);
+}
+
 /*classi utility*/
 
 .bg-orange{
@@ -204,6 +211,10 @@ footer{
 
 .pytop-20{
     padding-top: 20px;
+}
+
+.block{
+    display: block;
 }
 
 *{
