@@ -66,21 +66,32 @@ header{
     width: 15%;
 }
 
+.head-img{
+    filter: invert(1);
+    width: 8%;
+    margin-left: 10px;
+}
+
 .product-image{
     width: 100%;
-    height: 90%;
     margin-bottom: 15px;
 }
 
 .product-image > img{
     width: 100%;
-    height: 100%;
     object-fit:cover;
 }
 
+.product-image:hover .visible{
+    display: none;
+}
 
-.product-image > img:hover{
-    content: url("../img/1b.webp");
+.hidden{
+    display: none;
+}
+
+.product-image:hover .hidden{
+    display: inline-block;
 }
 
 .product-info{
@@ -104,7 +115,7 @@ header{
 .hearth-position{
     position: relative;
     left: 375px;
-    top: -850px;
+    top: -740px;
 }
 
 .discount{
