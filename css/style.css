@@ -73,6 +73,7 @@ header{
 }
 
 .product-image{
+    position: relative;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -113,17 +114,17 @@ header{
 }
 
 .hearth-position{
-    position: relative;
+    position: absolute;
+    bottom: 680px;
     left: 375px;
-    top: -740px;
 }
 
 .discount{
     text-align: center;
     color: white;
     padding: 5px;
-    position: relative;
-    top: -250px;
+    position: absolute;
+    bottom: 150px;
     width: 75px;
     background-color: red;
 }
@@ -132,9 +133,9 @@ header{
     text-align: center;
     color: white;
     padding: 5px;
-    position: relative;
-    top: -278.1px;
-    left: 78px;
+    position: absolute;
+    bottom: 149.5px;
+    left: 80px;
     width: 150px;
     background-color:#008000;
 }
@@ -226,6 +227,14 @@ footer{
 
 .block{
     display: block;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
 }
 
 *{
