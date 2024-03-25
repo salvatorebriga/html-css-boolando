@@ -39,6 +39,10 @@ header{
     width: 60%;
 }
 
+.col-80{
+    width: 80%;
+}
+
 .nav{
     display: flex;
 }
@@ -124,10 +128,40 @@ header{
     background-color:#008000;
 }
 
+footer{
+    width: 100%;
+}
+
+#foot-menu{
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    margin-top: 10px;
+}
+
+#foot-menu > li:not(:last-child){
+    margin-right: 10px;
+}
+
+#foot-menu > li > a{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
 /*classi utility*/
 
 .bg-orange{
     background-color: #ff6900;
+}
+
+.bg-black{
+    background-color: #1a1a1a;
+}
+
+.c-white{
+    color: white;
 }
 
 .orange-price{
@@ -166,6 +200,10 @@ header{
 
 .margin-r{
     margin-right: 10px;
+}
+
+.pytop-20{
+    padding-top: 20px;
 }
 
 *{
